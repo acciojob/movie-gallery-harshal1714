@@ -1,2 +1,34 @@
 
 /* Your CSS Code here. */
+
+
+/* Your CSS Code here. */
+
+img{
+	width:200px;
+	height:200px;
+}
+.container-fluid {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+
+		.col-cm-4 {
+			flex: 0 0 25%;
+			box-sizing: border-box;
+			padding: 5px;
+		}
+
+		@media (max-width: 767px) {
+			.col-cm-4 {
+				flex: 0 0 50%;
+			}
+		}
+
+		@media (max-width: 480px) {
+			.col-cm-4 {
+				flex: 0 0 100%;
+			}
+		}
