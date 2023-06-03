@@ -1,34 +1,16 @@
-
-/* Your CSS Code here. */
-
-
-/* Your CSS Code here. */
-
-img{
-	width:200px;
-	height:200px;
+.row-1{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
 }
-.container-fluid {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: flex-start;
-			align-items: flex-start;
-		}
-
-		.col-cm-4 {
-			flex: 0 0 25%;
-			box-sizing: border-box;
-			padding: 5px;
-		}
-
-		@media (max-width: 767px) {
-			.col-cm-4 {
-				flex: 0 0 50%;
-			}
-		}
-
-		@media (max-width: 480px) {
-			.col-cm-4 {
-				flex: 0 0 100%;
-			}
-		}
+.row-2{
+	display: grid;
+	grid-template-columns: repeat(6, 2fr);
+}
+.row-3{
+	display: grid;
+	grid-template-columns: repeat(3, 4fr);    
+}
+.row-4{
+	display: grid;
+	grid-template-columns: repeat(1, 12fr);
+}
